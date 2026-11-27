@@ -1,0 +1,118 @@
+{
+  "lang": "ja",
+  "title": "トークのタイトル",
+  "eyebrow": "イベント名",
+  "lead": "動画を再生せず、スライドと話の内容を上から順に読めるように再構成しました。",
+  "crop": "960:540:320:60",
+  "sourceUrl": "https://developer.apple.com/videos/play/wwdc2025/256/",
+  "homeUrl": "",
+  "mainEnd": 120.0,
+  "overview": {
+    "heading": "先に押さえると読みやすいこと",
+    "intro": "トーク全体の読み方を1〜2文で書きます。",
+    "meanings": [
+      {
+        "label": "前半",
+        "text": "前半の役割"
+      },
+      {
+        "label": "後半",
+        "text": "後半の役割"
+      }
+    ],
+    "summary": [
+      {
+        "label": "土台",
+        "text": "要点1"
+      },
+      {
+        "label": "制御",
+        "text": "要点2"
+      },
+      {
+        "label": "確認",
+        "text": "要点3"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "導入",
+      "slide": 1
+    },
+    {
+      "label": "本題",
+      "slide": 2
+    }
+  ],
+  "replacements": {
+    "誤変換": "正しい表記"
+  },
+  "slides": [
+    {
+      "start": 10.0,
+      "capture": 11.0,
+      "title": "タイトル",
+      "level": "context",
+      "label": "導入",
+      "spoken": "このスライドで話していた内容を、発話と資料だけから読みやすく整えます。",
+      "takeaway": "このスライドを読む意味を一文で示します。"
+    },
+    {
+      "start": 30.0,
+      "capture": 31.0,
+      "title": "本題",
+      "level": "core",
+      "label": "核心",
+      "spoken": "話した内容。",
+      "takeaway": "重要な理由。"
+    }
+  ],
+  "qa": [
+    {
+      "start": 120.0,
+      "end": 150.0,
+      "title": "Q&A: 質問の主題",
+      "question": "質問を短く整理します。",
+      "answer": "回答を短く整理します。",
+      "point": "本編へ加わった条件や補足を書きます。"
+    }
+  ],
+  "sourceNote": "素材と、文字起こしに対して行った補正を記載します。",
+  "code": [
+    {
+      "time": 147.0,
+      "title": "コードの見出し",
+      "code": "import SwiftUI"
+    }
+  ],
+  "resources": [
+    {
+      "title": "関連ドキュメント",
+      "url": "https://developer.apple.com/documentation/"
+    }
+  ],
+  "related": [
+    {
+      "title": "関連ビデオ",
+      "url": "https://developer.apple.com/videos/"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "ArrangementView",
+      "kind": "API",
+      "desc": "動画での説明を1文で",
+      "aliases": [],
+      "url": ""
+    },
+    {
+      "term": "予約領域",
+      "kind": "用語",
+      "desc": "動画での説明を1文で",
+      "aliases": [
+        "reserved region"
+      ]
+    }
+  ]
+}
